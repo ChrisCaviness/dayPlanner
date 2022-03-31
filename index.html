@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+
+    <!-- Header above the time blocks, showing the current time and date -->
+    <header class="jumbotron">
+      <h1 class="display-3" id="headingText">Work Day Scheduler</h1>
+      <p>A simple calendar app for scheduling your work day</p>
+      <p id="headingText">Current Time:</p>
+      <p id="currentTime"></p>
+    </header>
+
+    <!-- Container holding all the time blocks to be targeted via id -->
+    <div class="container">
+      <div class="timeblocks">
+        <div class="col-1" id="9">9 AM</div>
+          <textarea class="time-block hour-content col-10"></textarea>
+        <button class="saveButton col-1">💾</button>
+      </div>
+      <div class="timeblocks">
+        <div class="col-1" id="10">10 AM</div>
+          <textarea class="time-block hour-content col-10"></textarea>
+        <button class="saveButton col-1">💾</button>
+      </div>
+      <div class="timeblocks">
+        <div class="col-1" id="11">11 AM</div>
+          <textarea class="time-block hour-content col-10"></textarea>
+        <button class="saveButton col-1">💾</button>
+      </div>
+      <div class="timeblocks">
+        <div class="col-1" id="12">12 PM</div>
+          <textarea class="time-block hour-content col-10"></textarea>
+        <button class="saveButton col-1">💾</button>
+      </div>
+      <div class="timeblocks">
+        <div class="col-1" id="13">1 PM</div>
+          <textarea class="time-block hour-content col-10"></textarea>
+        <button class="saveButton col-1">💾</button>
+      </div>
+      <div class="timeblocks">
+        <div class="col-1" id="14">2 PM</div>
+          <textarea class="time-block hour-content col-10"></textarea>
+        <button class="saveButton col-1">💾</button>
+      </div>
+      <div class="timeblocks">
+        <div class="col-1" id="15">3 PM</div>
+          <textarea class="time-block hour-content col-10"></textarea>
+        <button class="saveButton col-1">💾</button>
+      </div>
+      <div class="timeblocks">
+        <div class="col-1" id="16">4 PM</div>
+          <textarea class="time-block hour-content col-10"></textarea>
+        <button class="saveButton col-1">💾 </button>
+      </div>
+      <div class="timeblocks mb-4">
+        <div class="col-1" id="17">5 PM</div>
+          <textarea class="time-block hour-content col-10"></textarea>
+        <button class="saveButton col-1">💾</button>
+      </div>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+<script src="assets/js/script.js"></script>
+  
+  </body>
+</html>
